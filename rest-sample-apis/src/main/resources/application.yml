@@ -34,5 +34,8 @@ info:
    description: "REST SAMPLE APIS. It's a module under maximums-samples. We can build a dockerImage & use it"
    version: "1.0"
 
-log.level:
+logging.level:
   org.springframework.cloud.sleuth: DEBUG
+
+spring.zipkin.baseUrl: http://localhost:8085
+spring.sleuth.sampler.percentage: 1.0
