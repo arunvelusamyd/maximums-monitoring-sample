@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: "Sample Service Consumer"
+
+gateway:
+  employee:
+    baseUrl: "http://localhost:8082/api"
+
+#logging.level:
+#    root: DEBUG
