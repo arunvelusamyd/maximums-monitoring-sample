@@ -1,5 +1,10 @@
 spring.application.name: zipkin-server
-server.port: 8085
+server.port: 9411
 
 spring.cloud.config.discovery.service-id: config
 spring.cloud.config.discovery.enabled: true
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
