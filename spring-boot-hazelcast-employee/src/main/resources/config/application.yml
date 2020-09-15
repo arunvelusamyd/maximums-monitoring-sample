@@ -13,5 +13,5 @@ server.port: 8082
 logging.level:
   org.springframework.cloud.sleuth: DEBUG
 
-spring.zipkin.baseUrl: http://localhost:8085
+spring.zipkin.baseUrl: http://localhost:9411
 spring.sleuth.sampler.percentage: 1.0
