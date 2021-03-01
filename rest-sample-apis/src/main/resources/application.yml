@@ -1,6 +1,11 @@
 spring:
   application:
     name: "REST sample API service"
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080
+        health-url: http://localhost:8081/actuator/health
 
 server.port: 8081
 
